@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main  # or 'master' if that's your default branch
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
